@@ -95,12 +95,27 @@ Live Online • Hybrid • On-Campus Available
 <div class="box price">
 $699.00 – Includes Books
 </div>
-
 <div class="box">
-<a class="cta" href="thank-you.html">
-Enroll Now
-</a>
+  <h3>Request Information / Enroll</h3>
+  <form action="https://formspree.io/f/xgorprle" method="POST">
+    <label for="name">Full Name</label><br>
+    <input type="text" id="name" name="name" required style="width:100%;padding:10px;margin:8px 0 15px;"><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" required style="width:100%;padding:10px;margin:8px 0 15px;"><br>
+
+    <label for="phone">Phone</label><br>
+    <input type="text" id="phone" name="phone" style="width:100%;padding:10px;margin:8px 0 15px;"><br>
+
+    <label for="message">Questions</label><br>
+    <textarea id="message" name="message" rows="5" style="width:100%;padding:10px;margin:8px 0 15px;"></textarea>
+
+    <input type="hidden" name="_subject" value="ETI Real Estate Lead Submission">
+
+    <button type="submit" class="cta" style="border:none;cursor:pointer;">Enroll Now</button>
+  </form>
 </div>
+
 
 </div>
 
